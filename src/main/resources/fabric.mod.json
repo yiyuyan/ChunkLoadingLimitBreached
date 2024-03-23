@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "cllb",
+  "version": "${version}",
+  "name": "ChunkLoadingLimitBreached",
+  "description": "",
+  "authors": [
+    "KSmc_brigade"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "accessWidener" : "cllb.accesswidener",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "cn.ksmcbrigade.cllb.ChunkLoadingLimitBreached"
+    ]
+  },
+  "mixins": [
+    "cllb.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
